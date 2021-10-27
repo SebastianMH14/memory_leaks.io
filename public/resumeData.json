@@ -7,27 +7,53 @@
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"",
+    "project":"https://mibolsilloapp.com/mx/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"",
+      "city1":"Bogota",
+      "state1":"Cundinamarca",
+      "zip": ""
     },
-    "name1":"Accelerator API",
+
+    "name1":"Backend",
     "description1":"An API that will help you save money",
-    "image1":"profilepic.jpg",
+    "image1":"salome.jpg",
     "bio1":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage1":"Here is where you should write your message to readers to have them get in contact with you.",
     "email1": "youremailhere@gmail.com",
     "phone1": "555-555-5555",
-    "github1":"https://github.com/nordicgiant2/react-nice-resume",
-    "project1":"https://github.com/nordicgiant2/react-nice-resume",
+    "github1":"",
+    "project1":"",
+
+    "name2":"Backend",
+    "description2":"An API that will help you save money",
+    "image2":"jerson.jpg",
+    "bio2":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage2":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email2": "youremailhere@gmail.com",
+    "phone2": "555-555-5555",
+    "github2":"https://github.com/nordicgiant2/react-nice-resume",
+    "project2":"https://github.com/nordicgiant2/react-nice-resume",
     "address1":{
-      "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+
+    "name3":"Backend",
+    "description3":"An API that will help you save money",
+    "image3":"sebastian.jpg",
+    "bio3":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage3":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email3": "sebasmh2002@hotmail.com",
+    "phone3": "555-555-5555",
+    "github3":"https://github.com/nordicgiant2/react-nice-resume",
+    "project3":"https://github.com/nordicgiant2/react-nice-resume",
+    "address2":{
+      "street":"(Your Street)",
+      "city2":"Medellín",
+      "state2":"Antioquia",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
@@ -64,60 +90,30 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Accelerator",
+        "degree":"API Accelerator recibe consultas por usuarios validos para despues enviar la informacion necesaria a la funcionalidad accelerator que permitira que el usuario tenga tres opciones de ahorro en tres categorias diferentes",
+        "graduated":"",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"",
+        "degree":"",
+        "graduated":"",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Message Generator",
+        "title":"API MessageGenerator se conecta a nube para acceder a los mensajes que seran enviados a los usuarios, a continuacion, selecciona el mensaje mas reciente entre toda la lista de mensajes y asi estar siempre al dia y este es enviado a la aplicacion para que cada dia el usuario tenga un mensaje y/o consejo para mejorar su salud financiera",
+        "years":"",
+        "description":""
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "company":"",
+        "title":"",
+        "years":"",
+        "description":""
       }
     ]
   }
