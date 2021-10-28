@@ -13,17 +13,14 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-
-    const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function (education) {
+    const Features = this.props.data.Features.map(function (Features) {
       return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
+        <div key={Features.name}>
+          <h3>{Features.name}</h3>
           <p className="info">
-            {education.degree} <span></span>
-            <em className="date">{education.graduated}</em>
+            {Features.description} <span></span>
+            <em className="date">{Features.graduated}</em>
           </p>
-          <p>{education.description}</p>
         </div>
       );
     });
@@ -46,13 +43,13 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Functionality 1</span>
+                <span>Feature 1</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{education}</div>
+                <div className="twelve columns">{Features}</div>
               </div>
             </div>
           </div>
@@ -62,29 +59,11 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Functionality 2</span>
+                <span>Feature 2</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">{work}</div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                
-              </div>
-            </div>
           </div>
         </Slide>
       </section>

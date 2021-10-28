@@ -1,60 +1,34 @@
 {
   "main": {
-    "name":"Accelerator API",
+    "name":"LINK ML",
     "description":"An API that will help you save money",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"",
-    "project":"https://mibolsilloapp.com/mx/",
-    "address":{
-      "street":"",
-      "city1":"Bogota",
-      "state1":"Cundinamarca",
-      "zip": ""
-    },
+    "mibolsilloapp":"https://mibolsilloapp.com/mx/",
+
 
     "name1":"Backend",
-    "description1":"An API that will help you save money",
     "image1":"salome.jpg",
     "bio1":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage1":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email1": "youremailhere@gmail.com",
-    "phone1": "555-555-5555",
-    "github1":"",
-    "project1":"",
-
-    "name2":"Backend",
-    "description2":"An API that will help you save money",
-    "image2":"jerson.jpg",
-    "bio2":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage2":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email2": "youremailhere@gmail.com",
-    "phone2": "555-555-5555",
-    "github2":"https://github.com/nordicgiant2/react-nice-resume",
-    "project2":"https://github.com/nordicgiant2/react-nice-resume",
-    "address1":{
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "email1": "sagrilo804@gmail.com",
+    "address":{
+      "city1":"Bogota",
+      "state1":"Colombia"
     },
 
+    "name2":"Backend",
+    "image2":"jerson.jpg",
+    "bio2":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "email2": "ing.jersonperez@gmail.com",
+
+
     "name3":"Backend",
-    "description3":"An API that will help you save money",
     "image3":"sebastian.jpg",
     "bio3":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage3":"Here is where you should write your message to readers to have them get in contact with you.",
     "email3": "sebasmh2002@hotmail.com",
-    "phone3": "555-555-5555",
-    "github3":"https://github.com/nordicgiant2/react-nice-resume",
-    "project3":"https://github.com/nordicgiant2/react-nice-resume",
     "address2":{
-      "street":"(Your Street)",
       "city2":"Medellín",
-      "state2":"Antioquia",
-      "zip": "(Your Zip/Postal Code)"
+      "state2":"Colombia"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
@@ -88,24 +62,18 @@
   },
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+    "Features":[
       {
-        "school":"Accelerator",
-        "degree":"API Accelerator recibe consultas por usuarios validos para despues enviar la informacion necesaria a la funcionalidad accelerator que permitira que el usuario tenga tres opciones de ahorro en tres categorias diferentes",
+        "name":"Accelerator",
+        "description":"Accelerator makes sure to receive inquiries from valid users, and based on the data received and the user's history, will recommend the 3 categories where the user should save to achieve their savings goals.",
         "graduated":"",
-        "description":""
-      },
-      {
-        "school":"",
-        "degree":"",
-        "graduated":"",
-        "description":""
+        "":""
       }
     ],
     "work":[
       {
         "company":"Message Generator",
-        "title":"API MessageGenerator se conecta a nube para acceder a los mensajes que seran enviados a los usuarios, a continuacion, selecciona el mensaje mas reciente entre toda la lista de mensajes y asi estar siempre al dia y este es enviado a la aplicacion para que cada dia el usuario tenga un mensaje y/o consejo para mejorar su salud financiera",
+        "title":"API MessageGenerator connects to the cloud to access the messages that will be sent to users, then selects the most recent message from the entire list of messages to be always up to date and this is sent to the application so that every day the user has a message and/or advice to improve their financial health.",
         "years":"",
         "description":""
       },

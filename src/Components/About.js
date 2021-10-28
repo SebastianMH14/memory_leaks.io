@@ -5,25 +5,19 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
     const name1 = this.props.data.name1;
     const name2 = this.props.data.name2;
     const name3 = this.props.data.name3;
     const profilepic1 = "images/" + this.props.data.image1;
     const profilepic2 = "images/" + this.props.data.image2;
     const profilepic3 = "images/" + this.props.data.image3;
-    const bio1 = this.props.data.bio;
-    const bio2 = this.props.data.bio;
-    const bio3 = this.props.data.bio;
-    const street = this.props.data.address.street;
+    const bio1 = this.props.data.bio1;
+    const bio2 = this.props.data.bio2;
+    const bio3 = this.props.data.bio3;
     const city1 = this.props.data.address.city1;
     const state1 = this.props.data.address.state1;
     const city2 = this.props.data.address2.city2;
     const state2 = this.props.data.address2.state2;
-    const zip = this.props.data.address.zip;
-    const phone1 = this.props.data.phone1;
-    const phone2 = this.props.data.phone2;
-    const phone3 = this.props.data.phone3;
     const email1 = this.props.data.email1;
     const email2 = this.props.data.email2;
     const email3 = this.props.data.email3;
@@ -40,7 +34,7 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>Salome</h2>
+              <h2>Salomé Grisales</h2>
 
               <p>{bio1}</p>
               <div className="row">
@@ -50,15 +44,11 @@ class About extends Component {
                     <span>{name1}</span>
                     <br />
                     <span>
-                      {city1}, {state1} {zip}
+                      {city1}, {state1}
                     </span>
-                    <br />
-                    <span>{phone1}</span>
                     <br />
                     <span>{email1}</span>
                   </p>
-                </div>
-                <div className="columns download">
                 </div>
               </div>
             </div>
@@ -73,7 +63,7 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>Jerson</h2>
+              <h2>Jerson Perez</h2>
 
               <p>{bio2}</p>
               <div className="row">
@@ -83,15 +73,11 @@ class About extends Component {
                     <span>{name2}</span>
                     <br />
                     <span>
-                      {city1}, {state2} {zip}
+                      {city1}, {state2}
                     </span>
-                    <br />
-                    <span>{phone2}</span>
                     <br />
                     <span>{email2}</span>
                   </p>
-                </div>
-                <div className="columns download">
                 </div>
               </div>
             </div>
@@ -105,7 +91,7 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>Sebastian</h2>
+              <h2>Sebastian Molina</h2>
 
               <p>{bio3}</p>
               <div className="row">
@@ -115,15 +101,11 @@ class About extends Component {
                     <span>{name3}</span>
                     <br />
                     <span>
-                      {city2}, {state2} {zip}
+                      {city2}, {state2}
                     </span>
-                    <br />
-                    <span>{phone3}</span>
                     <br />
                     <span>{email3}</span>
                   </p>
-                </div>
-                <div className="columns download">
                 </div>
               </div>
             </div>
