@@ -6,7 +6,6 @@ class Contact extends Component {
     if (!this.props.data) return null;
 
     const message = this.props.data.contactmessage;
-    const icono = this.props.data.icono;
 
     return (
       <section id="contact">
