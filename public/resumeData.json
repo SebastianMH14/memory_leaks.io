@@ -4,11 +4,12 @@
     "description":"An API that will help you save money",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "mibolsilloapp":"https://mibolsilloapp.com/mx/",
+    "icono":"linkml",
 
 
     "name1":"Backend",
     "image1":"salome.jpg",
-    "bio1":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio1":"I am a woman full of creativity, I like to be in constant learning and take advantage of every situation. I am close to artistic creation and my goal is to unite technology with art. I have skills in python, C, teamwork and active communication.",
     "email1": "sagrilo804@gmail.com",
     "address":{
       "city1":"Bogota",
@@ -23,7 +24,7 @@
 
     "name3":"Backend",
     "image3":"sebastian.jpg",
-    "bio3":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio3":"I am a developer passionate about knowledge, I never want to stop learning and that's what I like most about this area, I am always learning, I focus on backend development with Python but I am on my way to learn frontend soon I will be a full stack developer, I enjoy team work and it is easy for me to relate with people, and when I am not programming I am always on my skateboard which is what makes me happy.",
     "email3": "sebasmh2002@hotmail.com",
     "address2":{
       "city2":"Medellín",
