@@ -2,7 +2,6 @@
   "main": {
     "name":"LINK ML",
     "description":"An API that will help you save money",
-    "image":"profilepic.jpg",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "mibolsilloapp":"https://mibolsilloapp.com/mx/",
 
@@ -61,27 +60,18 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "Features":[
+    "Feature":[
       {
         "name":"Accelerator",
-        "description":"Accelerator makes sure to receive inquiries from valid users, and based on the data received and the user's history, will recommend the 3 categories where the user should save to achieve their savings goals.",
-        "graduated":"",
-        "":""
+        "description":"Calculates three categories where the user could have the greatest savings potential to reach their goals more efficiently, taking into account the user's financial habits.",
+        "graduated":""
       }
     ],
-    "work":[
+    "Feature1":[
       {
-        "company":"Message Generator",
-        "title":"API MessageGenerator connects to the cloud to access the messages that will be sent to users, then selects the most recent message from the entire list of messages to be always up to date and this is sent to the application so that every day the user has a message and/or advice to improve their financial health.",
-        "years":"",
-        "description":""
-      },
-      {
-        "company":"",
-        "title":"",
-        "years":"",
-        "description":""
+        "name":"Message Generator",
+        "description":"Sends a different tip every day to the user regarding the management and care of their money. To begin with, it establishes a connection with the cloud where the previously generated messages are located, then the file in which the message is found is chosen for the specified user, and finally, the message is returned to the application.",
+        "years":""
       }
     ]
   }

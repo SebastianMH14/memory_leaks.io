@@ -62,7 +62,7 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={mibolsilloapp} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Mi Bolsillo
+                  <i className="fa fa-book"></i>MiBolsillo
                 </a>
               </ul>
             </Fade>

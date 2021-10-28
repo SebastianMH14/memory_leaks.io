@@ -13,27 +13,26 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-    const Features = this.props.data.Features.map(function (Features) {
+    const Feature = this.props.data.Feature.map(function (Feature) {
       return (
-        <div key={Features.name}>
-          <h3>{Features.name}</h3>
-          <p className="info">
-            {Features.description} <span></span>
-            <em className="date">{Features.graduated}</em>
+        <div key={Feature.name}>
+          <h3>{Feature.name}</h3>
+          <p className="date">
+            {Feature.description} <span></span>
+            <em className="date">{Feature.graduated}</em>
           </p>
         </div>
       );
     });
 
-    const work = this.props.data.work.map(function (work) {
+    const Feature1 = this.props.data.Feature1.map(function (Feature1) {
       return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span></span> <em className="date">{work.years}</em>
+        <div key={Feature1.name}>
+          <h3>{Feature1.name}</h3>
+          <p className="date">
+            {Feature1.description}
+            <span></span> <em className="date">{Feature1.years}</em>
           </p>
-          <p>{work.description}</p>
         </div>
       );
     });
@@ -49,7 +48,7 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{Features}</div>
+                <div className="twelve columns">{Feature}</div>
               </div>
             </div>
           </div>
@@ -63,7 +62,7 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">{work}</div>
+            <div className="nine columns main-col">{Feature1}</div>
           </div>
         </Slide>
       </section>
