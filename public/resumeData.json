@@ -1,79 +1,116 @@
 {
-  "main": {
-    "name":"LINK ML",
-    "description":"An API that will help you save money",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "mibolsilloapp":"https://mibolsilloapp.com/mx/",
-    "icono":"linkml",
-
-
-    "name1":"Backend",
-    "image1":"salome.jpg",
-    "bio1":"I am a woman full of creativity, I like to be in constant learning and take advantage of every situation. I am close to artistic creation and my goal is to unite technology with art. I have skills in python, C, teamwork and active communication.",
-    "email1": "sagrilo804@gmail.com",
-    "address":{
-      "city1":"Bogota",
-      "state1":"Colombia"
+    "main": {
+        "name": "LINK ML",
+        "description": "An API that will help you save money",
+        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "mibolsilloapp": "https://mibolsilloapp.com/mx/",
+        "icono": "linkml",
+        "team": [
+            {
+                "name": "Salomé Grisales",
+                "desc": "Backend Developer",
+                "image": "salome.jpg",
+                "bio": "I am a woman full of creativity, I like to be in constant learning and take advantage of every situation. I am close to artistic creation and my goal is to unite technology with art. I have skills in python, C, teamwork and active communication.",
+                "email": "sagrilo804@gmail.com",
+                "address": {
+                    "city": "Bogota",
+                    "state": "Colombia"
+                },
+                "social": [
+                    {
+                        "name": "linkedin",
+                        "url": "https://www.linkedin.com/in/salome-aike/",
+                        "className": "fa fa-linkedin"
+                    },
+                    {
+                        "name": "github",
+                        "url": "https://github.com/aike-s",
+                        "className": "fa fa-github"
+                    },
+                    {
+                        "name": "twitter",
+                        "url": "https://twitter.com/AikeMascaras",
+                        "className": "fa fa-twitter"
+                    }
+                ]
+            },
+            {
+                "name": "Jerson Perez",
+                "desc": "Backend Developer",
+                "image": "jerson.jpg",
+                "bio": "I am a developer with a deep taste for technology and innovation, I like to be in constant learning and face challenges in both study and work, as they are the best way to learn. I am always looking for the best solution for the problems that arise in the day to day..",
+                "email": "ing.jersonperez@gmail.com",
+                "address": {
+                    "city": "Bogota",
+                    "state": "Colombia"
+                },
+                "social": [
+                    {
+                        "name": "linkedin",
+                        "url": "https://www.linkedin.com/in/jerson-perez/",
+                        "className": "fa fa-linkedin"
+                    },
+                    {
+                        "name": "github",
+                        "url": "https://github.com/jepez90",
+                        "className": "fa fa-github"
+                    },
+                    {
+                        "name": "twitter",
+                        "url": "https://twitter.com/Jepez90",
+                        "className": "fa fa-twitter"
+                    }
+                ]
+            },
+            {
+                "name": "Sebastian Molina",
+                "desc": "Backend Developer",
+                "image": "sebastian.jpg",
+                "bio": "I am a developer passionate about knowledge, I never want to stop learning and that's what I like most about this area, I am always learning, I focus on backend development with Python but I am on my way to learn frontend soon I will be a full stack developer, I enjoy team work and it is easy for me to relate with people, and when I am not programming I am always on my skateboard which is what makes me happy.",
+                "email": "sebasmh2002@hotmail.com",
+                "address": {
+                    "city": "Medellín",
+                    "state": "Colombia"
+                },
+                "social": [
+                    {
+                        "name": "linkedin",
+                        "url": "https://www.linkedin.com/in/sebashenao14/",
+                        "className": "fa fa-linkedin"
+                    },
+                    {
+                        "name": "github",
+                        "url": "https://github.com/SebastianMH14",
+                        "className": "fa fa-github"
+                    },
+                    {
+                        "name": "twitter",
+                        "url": "https://twitter.com/sebas_henao_",
+                        "className": "fa fa-twitter"
+                    }
+                ]
+            }
+        ],
+        
+    
+        "website": "http://www.timbakerdev.com",
+        "resumedownload": "http://timbakerdev.com"
+        
     },
-
-    "name2":"Backend",
-    "image2":"jerson.jpg",
-    "bio2":"I am a developer with a deep taste for technology and innovation, I like to be in constant learning and face challenges in both study and work, as they are the best way to learn. I am always looking for the best solution for the problems that arise in the day to day..",
-    "email2": "ing.jersonperez@gmail.com",
-
-
-    "name3":"Backend",
-    "image3":"sebastian.jpg",
-    "bio3":"I am a developer passionate about knowledge, I never want to stop learning and that's what I like most about this area, I am always learning, I focus on backend development with Python but I am on my way to learn frontend soon I will be a full stack developer, I enjoy team work and it is easy for me to relate with people, and when I am not programming I am always on my skateboard which is what makes me happy.",
-    "email3": "sebasmh2002@hotmail.com",
-    "address2":{
-      "city2":"Medellín",
-      "state2":"Colombia"
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
-      }
-    ]
-  },
-  "resume":{
-    "Feature":[
-      {
-        "name":"Accelerator",
-        "description":"Calculates three categories where the user could have the greatest savings potential to reach their goals more efficiently, taking into account the user's financial habits.",
-        "graduated":""
-      }
-    ],
-    "Feature1":[
-      {
-        "name":"Message Generator",
-        "description":"Sends a different tip every day to the user regarding the management and care of their money. To begin with, it establishes a connection with the cloud where the previously generated messages are located, then the file in which the message is found is chosen for the specified user, and finally, the message is returned to the application.",
-        "years":""
-      }
-    ]
-  }
+    "resume": {
+        "Feature": [
+            {
+                "name": "Accelerator",
+                "description": "Calculates three categories where the user could have the greatest savings potential to reach their goals more efficiently, taking into account the user's financial habits.",
+                "graduated": ""
+            }
+        ],
+        "Feature1": [
+            {
+                "name": "Message Generator",
+                "description": "Sends a different tip every day to the user regarding the management and care of their money. To begin with, it establishes a connection with the cloud where the previously generated messages are located, then the file in which the message is found is chosen for the specified user, and finally, the message is returned to the application.",
+                "years": ""
+            }
+        ]
+    }
 }
