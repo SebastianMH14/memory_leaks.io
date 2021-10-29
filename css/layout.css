@@ -188,22 +188,46 @@ ul#nav li.current a { color: #fe6928; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0762f9; }
+#about a, #about a:visited { color: #525252; }
+#about a:hover, #about a:focus { color: #fff; }
+
+
+
+/* social links */
+#about .social-links {
+    margin: 18px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
+ }
+ #about .social-links li {
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     margin-left: 42px;
+     color: #F06000;
+ }
+ 
+ #about .social-links li:first-child { margin-left: 0; }
+
+
+
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: rgb(231, 231, 231);
    margin-bottom: 12px;
 }
+#about h4 {
+    color: rgb(221, 221, 221);
+ }
 #about p {
    line-height: 30px;
    color: #ccc;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
