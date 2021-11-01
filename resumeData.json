@@ -105,7 +105,7 @@
             },
             {
                 "title": "Feature 2",
-                "name": "Message Generator",
+                "name": "Message Fetcher",
                 "description": "Sends a different tip every day to the user regarding the management and care of their money. To begin with, it establishes a connection with the cloud where the previously generated messages are located, then the file in which the message is found is chosen for the specified user, and finally, the message is returned to the application.",
                 "years": "",
                 "image": "notification.png"
