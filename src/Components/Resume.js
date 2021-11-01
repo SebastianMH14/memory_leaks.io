@@ -13,29 +13,9 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-    const Feature = this.props.data.Feature.map(function (Feature) {
-      return (
-        <div key={Feature.name}>
-          <h3>{Feature.name}</h3>
-          <p className="date">
-            {Feature.description} <span></span>
-            <em className="date">{Feature.graduated}</em>
-          </p>
-        </div>
-      );
-    });
 
-    const Feature1 = this.props.data.Feature1.map(function (Feature1) {
-      return (
-        <div key={Feature1.name}>
-          <h3>{Feature1.name}</h3>
-          <p className="date">
-            {Feature1.description}
-            <span></span> <em className="date">{Feature1.years}</em>
-          </p>
-        </div>
-      );
-    });
+    const Feature = this.props.data.Feature;
+
     return (
       <section id="resume">
         <Slide left duration={1300}>
@@ -48,7 +28,18 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{Feature}</div>
+                <div className="twelve columns">
+                  <div key={Feature[0].name} className="six columns">
+                    <h3>{Feature[0].name}</h3>
+                    <p className="date">
+                      {Feature[0].description} <span></span>
+                      <em className="date">{Feature[0].graduated}</em>
+                    </p>
+                  </div>
+                  <div key={Feature[0].name + "img"} className="six columns">
+                    <img width="200px" src={"images/accelerator.jpg"}></img>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -62,7 +53,22 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">{Feature1}</div>
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">
+                  <div key={Feature[1].name} className="six columns">
+                    <h3>{Feature[1].name}</h3>
+                    <p className="date">
+                      {Feature[1].description} <span></span>
+                      <em className="date">{Feature[1].graduated}</em>
+                    </p>
+                  </div>
+                  <div key={Feature[1].name + "img"} className="six columns">
+                    <img width="200px" src={"images/notification.png"}></img>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </Slide>
       </section>
