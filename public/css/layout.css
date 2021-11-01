@@ -300,6 +300,11 @@ ul#nav li.current a { color: #fe6928; }
    margin-top: 6px;
 }
 
+
+#resume .img_container{
+    text-align: center;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

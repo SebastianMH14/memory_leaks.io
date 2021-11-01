@@ -95,16 +95,20 @@
         "resumedownload": "http://timbakerdev.com"
     },
     "resume": {
-        "Feature": [
+        "Features": [
             {
+                "title": "Feature 1",
                 "name": "Accelerator",
                 "description": "Calculates three categories where the user could have the greatest savings potential to reach their goals more efficiently, taking into account the user's financial habits.",
-                "graduated": ""
+                "graduated": "",
+                "image": "accelerator.png"
             },
             {
+                "title": "Feature 2",
                 "name": "Message Generator",
                 "description": "Sends a different tip every day to the user regarding the management and care of their money. To begin with, it establishes a connection with the cloud where the previously generated messages are located, then the file in which the message is found is chosen for the specified user, and finally, the message is returned to the application.",
-                "years": ""
+                "years": "",
+                "image": "accelerator.png"
             }
         ]
     }
